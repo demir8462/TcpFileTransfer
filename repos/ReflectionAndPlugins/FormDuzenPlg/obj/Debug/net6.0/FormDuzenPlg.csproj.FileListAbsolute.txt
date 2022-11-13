@@ -1,0 +1,15 @@
+C:\Users\alide\source\repos\ReflectionAndPlugins\FormDuzenPlg\bin\Debug\net6.0\IPlugin.dll
+C:\Users\alide\source\repos\ReflectionAndPlugins\FormDuzenPlg\bin\Debug\net6.0\IPlugin.pdb
+C:\Users\alide\source\repos\ReflectionAndPlugins\FormDuzenPlg\obj\Debug\net6.0\FormDuzenPlg.csproj.AssemblyReference.cache
+C:\Users\alide\source\repos\ReflectionAndPlugins\FormDuzenPlg\obj\Debug\net6.0\FormDuzenPlg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alide\source\repos\ReflectionAndPlugins\FormDuzenPlg\obj\Debug\net6.0\FormDuzenPlg.AssemblyInfoInputs.cache
+C:\Users\alide\source\repos\ReflectionAndPlugins\FormDuzenPlg\obj\Debug\net6.0\FormDuzenPlg.AssemblyInfo.cs
+C:\Users\alide\source\repos\ReflectionAndPlugins\FormDuzenPlg\obj\Debug\net6.0\FormDuzenPlg.csproj.CoreCompileInputs.cache
+C:\Users\alide\source\repos\ReflectionAndPlugins\FormDuzenPlg\obj\Debug\net6.0\FormDuzenPlg.dll
+C:\Users\alide\source\repos\ReflectionAndPlugins\FormDuzenPlg\obj\Debug\net6.0\refint\FormDuzenPlg.dll
+C:\Users\alide\source\repos\ReflectionAndPlugins\FormDuzenPlg\obj\Debug\net6.0\FormDuzenPlg.pdb
+C:\Users\alide\source\repos\ReflectionAndPlugins\FormDuzenPlg\bin\Debug\net6.0\FormDuzenPlg.deps.json
+C:\Users\alide\source\repos\ReflectionAndPlugins\FormDuzenPlg\bin\Debug\net6.0\FormDuzenPlg.dll
+C:\Users\alide\source\repos\ReflectionAndPlugins\FormDuzenPlg\bin\Debug\net6.0\FormDuzenPlg.pdb
+C:\Users\alide\source\repos\ReflectionAndPlugins\FormDuzenPlg\obj\Debug\net6.0\FormDuzenPlg.csproj.CopyComplete
+C:\Users\alide\source\repos\ReflectionAndPlugins\FormDuzenPlg\obj\Debug\net6.0\ref\FormDuzenPlg.dll

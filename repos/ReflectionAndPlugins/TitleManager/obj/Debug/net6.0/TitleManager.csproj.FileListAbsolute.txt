@@ -1,0 +1,15 @@
+C:\Users\alide\source\repos\ReflectionAndPlugins\TitleManager\obj\Debug\net6.0\TitleManager.csproj.AssemblyReference.cache
+C:\Users\alide\source\repos\ReflectionAndPlugins\TitleManager\obj\Debug\net6.0\TitleManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alide\source\repos\ReflectionAndPlugins\TitleManager\obj\Debug\net6.0\TitleManager.AssemblyInfoInputs.cache
+C:\Users\alide\source\repos\ReflectionAndPlugins\TitleManager\obj\Debug\net6.0\TitleManager.AssemblyInfo.cs
+C:\Users\alide\source\repos\ReflectionAndPlugins\TitleManager\obj\Debug\net6.0\TitleManager.csproj.CoreCompileInputs.cache
+C:\Users\alide\source\repos\ReflectionAndPlugins\TitleManager\bin\Debug\net6.0\TitleManager.deps.json
+C:\Users\alide\source\repos\ReflectionAndPlugins\TitleManager\bin\Debug\net6.0\TitleManager.dll
+C:\Users\alide\source\repos\ReflectionAndPlugins\TitleManager\bin\Debug\net6.0\TitleManager.pdb
+C:\Users\alide\source\repos\ReflectionAndPlugins\TitleManager\bin\Debug\net6.0\IPlugin.dll
+C:\Users\alide\source\repos\ReflectionAndPlugins\TitleManager\bin\Debug\net6.0\IPlugin.pdb
+C:\Users\alide\source\repos\ReflectionAndPlugins\TitleManager\obj\Debug\net6.0\TitleManager.csproj.CopyComplete
+C:\Users\alide\source\repos\ReflectionAndPlugins\TitleManager\obj\Debug\net6.0\TitleManager.dll
+C:\Users\alide\source\repos\ReflectionAndPlugins\TitleManager\obj\Debug\net6.0\refint\TitleManager.dll
+C:\Users\alide\source\repos\ReflectionAndPlugins\TitleManager\obj\Debug\net6.0\TitleManager.pdb
+C:\Users\alide\source\repos\ReflectionAndPlugins\TitleManager\obj\Debug\net6.0\ref\TitleManager.dll

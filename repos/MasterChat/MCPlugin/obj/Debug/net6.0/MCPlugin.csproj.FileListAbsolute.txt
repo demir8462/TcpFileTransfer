@@ -1,0 +1,12 @@
+C:\Users\alide\source\repos\MasterChat\MCPlugin\bin\Debug\net6.0\MCPlugin.deps.json
+C:\Users\alide\source\repos\MasterChat\MCPlugin\bin\Debug\net6.0\MCPlugin.dll
+C:\Users\alide\source\repos\MasterChat\MCPlugin\bin\Debug\net6.0\MCPlugin.pdb
+C:\Users\alide\source\repos\MasterChat\MCPlugin\obj\Debug\net6.0\MCPlugin.csproj.AssemblyReference.cache
+C:\Users\alide\source\repos\MasterChat\MCPlugin\obj\Debug\net6.0\MCPlugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alide\source\repos\MasterChat\MCPlugin\obj\Debug\net6.0\MCPlugin.AssemblyInfoInputs.cache
+C:\Users\alide\source\repos\MasterChat\MCPlugin\obj\Debug\net6.0\MCPlugin.AssemblyInfo.cs
+C:\Users\alide\source\repos\MasterChat\MCPlugin\obj\Debug\net6.0\MCPlugin.csproj.CoreCompileInputs.cache
+C:\Users\alide\source\repos\MasterChat\MCPlugin\obj\Debug\net6.0\MCPlugin.dll
+C:\Users\alide\source\repos\MasterChat\MCPlugin\obj\Debug\net6.0\refint\MCPlugin.dll
+C:\Users\alide\source\repos\MasterChat\MCPlugin\obj\Debug\net6.0\MCPlugin.pdb
+C:\Users\alide\source\repos\MasterChat\MCPlugin\obj\Debug\net6.0\ref\MCPlugin.dll

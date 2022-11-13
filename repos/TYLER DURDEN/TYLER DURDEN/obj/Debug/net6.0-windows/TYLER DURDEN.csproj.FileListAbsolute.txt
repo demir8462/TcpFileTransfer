@@ -1,0 +1,17 @@
+C:\Users\alide\source\repos\TYLER DURDEN\TYLER DURDEN\bin\Debug\net6.0-windows\TYLER DURDEN.exe
+C:\Users\alide\source\repos\TYLER DURDEN\TYLER DURDEN\bin\Debug\net6.0-windows\TYLER DURDEN.deps.json
+C:\Users\alide\source\repos\TYLER DURDEN\TYLER DURDEN\bin\Debug\net6.0-windows\TYLER DURDEN.runtimeconfig.json
+C:\Users\alide\source\repos\TYLER DURDEN\TYLER DURDEN\bin\Debug\net6.0-windows\TYLER DURDEN.dll
+C:\Users\alide\source\repos\TYLER DURDEN\TYLER DURDEN\bin\Debug\net6.0-windows\TYLER DURDEN.pdb
+C:\Users\alide\source\repos\TYLER DURDEN\TYLER DURDEN\obj\Debug\net6.0-windows\TYLER DURDEN.csproj.AssemblyReference.cache
+C:\Users\alide\source\repos\TYLER DURDEN\TYLER DURDEN\obj\Debug\net6.0-windows\TYLER_DURDEN.Form1.resources
+C:\Users\alide\source\repos\TYLER DURDEN\TYLER DURDEN\obj\Debug\net6.0-windows\TYLER DURDEN.csproj.GenerateResource.cache
+C:\Users\alide\source\repos\TYLER DURDEN\TYLER DURDEN\obj\Debug\net6.0-windows\TYLER DURDEN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alide\source\repos\TYLER DURDEN\TYLER DURDEN\obj\Debug\net6.0-windows\TYLER DURDEN.AssemblyInfoInputs.cache
+C:\Users\alide\source\repos\TYLER DURDEN\TYLER DURDEN\obj\Debug\net6.0-windows\TYLER DURDEN.AssemblyInfo.cs
+C:\Users\alide\source\repos\TYLER DURDEN\TYLER DURDEN\obj\Debug\net6.0-windows\TYLER DURDEN.csproj.CoreCompileInputs.cache
+C:\Users\alide\source\repos\TYLER DURDEN\TYLER DURDEN\obj\Debug\net6.0-windows\TYLER DURDEN.dll
+C:\Users\alide\source\repos\TYLER DURDEN\TYLER DURDEN\obj\Debug\net6.0-windows\refint\TYLER DURDEN.dll
+C:\Users\alide\source\repos\TYLER DURDEN\TYLER DURDEN\obj\Debug\net6.0-windows\TYLER DURDEN.pdb
+C:\Users\alide\source\repos\TYLER DURDEN\TYLER DURDEN\obj\Debug\net6.0-windows\TYLER DURDEN.genruntimeconfig.cache
+C:\Users\alide\source\repos\TYLER DURDEN\TYLER DURDEN\obj\Debug\net6.0-windows\ref\TYLER DURDEN.dll

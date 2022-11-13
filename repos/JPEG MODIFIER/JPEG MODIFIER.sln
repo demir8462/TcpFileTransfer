@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPEG MODIFIER", "JPEG MODIFIER\JPEG MODIFIER.csproj", "{065D5A0C-364F-40DC-94F0-3700FE3B936A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{065D5A0C-364F-40DC-94F0-3700FE3B936A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065D5A0C-364F-40DC-94F0-3700FE3B936A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065D5A0C-364F-40DC-94F0-3700FE3B936A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065D5A0C-364F-40DC-94F0-3700FE3B936A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92D598DE-43BD-4F38-9F81-70A2AE492561}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+C:\Users\alide\source\repos\TXTSCREEN\TXTSCREEN\bin\Debug\net6.0-windows\TXTSCREEN.exe
+C:\Users\alide\source\repos\TXTSCREEN\TXTSCREEN\bin\Debug\net6.0-windows\TXTSCREEN.deps.json
+C:\Users\alide\source\repos\TXTSCREEN\TXTSCREEN\bin\Debug\net6.0-windows\TXTSCREEN.runtimeconfig.json
+C:\Users\alide\source\repos\TXTSCREEN\TXTSCREEN\bin\Debug\net6.0-windows\TXTSCREEN.dll
+C:\Users\alide\source\repos\TXTSCREEN\TXTSCREEN\bin\Debug\net6.0-windows\TXTSCREEN.pdb
+C:\Users\alide\source\repos\TXTSCREEN\TXTSCREEN\obj\Debug\net6.0-windows\TXTSCREEN.csproj.AssemblyReference.cache
+C:\Users\alide\source\repos\TXTSCREEN\TXTSCREEN\obj\Debug\net6.0-windows\TXTSCREEN.Form1.resources
+C:\Users\alide\source\repos\TXTSCREEN\TXTSCREEN\obj\Debug\net6.0-windows\TXTSCREEN.csproj.GenerateResource.cache
+C:\Users\alide\source\repos\TXTSCREEN\TXTSCREEN\obj\Debug\net6.0-windows\TXTSCREEN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alide\source\repos\TXTSCREEN\TXTSCREEN\obj\Debug\net6.0-windows\TXTSCREEN.AssemblyInfoInputs.cache
+C:\Users\alide\source\repos\TXTSCREEN\TXTSCREEN\obj\Debug\net6.0-windows\TXTSCREEN.AssemblyInfo.cs
+C:\Users\alide\source\repos\TXTSCREEN\TXTSCREEN\obj\Debug\net6.0-windows\TXTSCREEN.csproj.CoreCompileInputs.cache
+C:\Users\alide\source\repos\TXTSCREEN\TXTSCREEN\obj\Debug\net6.0-windows\TXTSCREEN.dll
+C:\Users\alide\source\repos\TXTSCREEN\TXTSCREEN\obj\Debug\net6.0-windows\refint\TXTSCREEN.dll
+C:\Users\alide\source\repos\TXTSCREEN\TXTSCREEN\obj\Debug\net6.0-windows\TXTSCREEN.pdb
+C:\Users\alide\source\repos\TXTSCREEN\TXTSCREEN\obj\Debug\net6.0-windows\TXTSCREEN.genruntimeconfig.cache
+C:\Users\alide\source\repos\TXTSCREEN\TXTSCREEN\obj\Debug\net6.0-windows\ref\TXTSCREEN.dll

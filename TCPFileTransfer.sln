@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPFileTransfer", "TCPFileTransfer\TCPFileTransfer.csproj", "{34150799-7124-45DF-95C2-BFA0307613B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34150799-7124-45DF-95C2-BFA0307613B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34150799-7124-45DF-95C2-BFA0307613B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34150799-7124-45DF-95C2-BFA0307613B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34150799-7124-45DF-95C2-BFA0307613B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C845545C-8E1C-45D5-8D19-C73FC5C552C0}
+	EndGlobalSection
+EndGlobal

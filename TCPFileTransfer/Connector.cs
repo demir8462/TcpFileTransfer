@@ -16,6 +16,7 @@ namespace TCPFileTransfer
         byte[] paket = new byte[BUFFERSIZE];
         public static int bytesread;
         public static long TOTALBYTETOREAD,RECIEVE_FILE_SIZE;
+        public static string PASS;
         FileStream filestream;
 
         TcpListener listener;
@@ -53,10 +54,12 @@ namespace TCPFileTransfer
             stream = client.GetStream();
             return client.Connected;
         }
-        public bool dosyaYollaIstek(string name,long size)
+        public bool dosyaYollaIstek(string name,long size,string md5,string pass)
         {
             iletisimPaketi.name = name;
             iletisimPaketi.size = size;
+            iletisimPaketi.md5 = md5;
+            iletisimPaketi.pass = pass;
             iletisimPaketi.tip = SpecialDataPackages.type.DOSYAYOLLA;
             BLOCK_READING_STREAM = true;
             bf.Serialize(stream,iletisimPaketi);
@@ -76,7 +79,7 @@ namespace TCPFileTransfer
             if(iletisimPaketi.tip == SpecialDataPackages.type.DOSYAYOLLA)
             {
                 DialogResult dialogResult = MessageBox.Show("Dosya Istegı :" + iletisimPaketi.name + ":" + iletisimPaketi.size, "ISTEK", MessageBoxButtons.YesNo);
-                if (dialogResult == DialogResult.Yes)
+                if (dialogResult == DialogResult.Yes && iletisimPaketi.pass == PASS)
                 {
                     iletisimPaketi.cevap = true;
                 }
@@ -86,6 +89,11 @@ namespace TCPFileTransfer
                 }
                 iletisimPaketi.tip = SpecialDataPackages.type.CEVAP;
                 bf.Serialize(stream, iletisimPaketi);
+                if(!iletisimPaketi.cevap)
+                {
+                    close();
+                    return;
+                }
                 TOTALBYTETOREAD = iletisimPaketi.size;
                 RECIEVE_FILE_SIZE = iletisimPaketi.size;
                 Form1.recivingFileSizeLabel.Text = (RECIEVE_FILE_SIZE/1024/1024).ToString()+"MB";
@@ -116,8 +124,14 @@ namespace TCPFileTransfer
                     if (0 == TOTALBYTETOREAD)
                     {
                         Form1.writeConsole("DOSYA TAMAMEN ALINDI !");
+                        
                         filestream.Flush();
                         filestream.Close();
+                        Form1.writeConsole("DOSYA MD5:" + iletisimPaketi.md5 + "\t Doğru MD5 :" + Form1.getMd5OfFile(filestream.Name));
+                        if (Form1.getMd5OfFile(filestream.Name) == iletisimPaketi.md5)
+                            Form1.writeConsole("DOSYA DOĞRU ALINDI");
+                        else
+                            Form1.writeConsole("DOSYA FARKLI!");
                         break;
                     }
                 }
@@ -153,7 +167,7 @@ namespace TCPFileTransfer
     class SpecialDataPackages
     {
         public enum type {DOSYAYOLLA ,CEVAP};
-        public string name;
+        public string name,md5,pass;
         public long size;
         public bool cevap;
         public type tip;

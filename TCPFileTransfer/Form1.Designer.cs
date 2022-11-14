@@ -32,8 +32,12 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label16 = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -44,7 +48,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.label10 = new System.Windows.Forms.Label();
             this.progressBar2 = new System.Windows.Forms.ProgressBar();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -55,6 +58,8 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -64,11 +69,14 @@
             this.label6 = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -79,7 +87,7 @@
             this.tabControl1.Location = new System.Drawing.Point(1, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(643, 183);
+            this.tabControl1.Size = new System.Drawing.Size(643, 240);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -88,15 +96,20 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(635, 150);
+            this.tabPage1.Size = new System.Drawing.Size(635, 207);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "SEND FILE";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label8);
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.label16);
             this.panel1.Controls.Add(this.progressBar1);
+            this.panel1.Controls.Add(this.label10);
+            this.panel1.Controls.Add(this.label15);
+            this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label3);
@@ -108,26 +121,62 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(3, 6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(626, 144);
+            this.panel1.Size = new System.Drawing.Size(626, 201);
             this.panel1.TabIndex = 1;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(525, 69);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(98, 91);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 15;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Visible = false;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(181, 143);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(17, 20);
+            this.label16.TabIndex = 14;
+            this.label16.Text = "0";
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(6, 166);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(619, 29);
+            this.progressBar1.TabIndex = 12;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(4, 143);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(160, 20);
+            this.label10.TabIndex = 13;
+            this.label10.Text = "Transfer Speed [MB/S]:";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(88, 121);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(76, 20);
+            this.label15.TabIndex = 11;
+            this.label15.Text = "MD5 SUM";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(4, 121);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(282, 20);
+            this.label8.Size = new System.Drawing.Size(52, 20);
             this.label8.TabIndex = 10;
-            this.label8.Text = "FIRST CONNECT TO A SERVER OR CLIENT";
-            // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(444, 115);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(179, 29);
-            this.progressBar1.Step = 1;
-            this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.progressBar1.TabIndex = 9;
+            this.label8.Text = "MD5 : ";
             // 
             // label4
             // 
@@ -215,7 +264,6 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.label10);
             this.tabPage2.Controls.Add(this.progressBar2);
             this.tabPage2.Controls.Add(this.label11);
             this.tabPage2.Controls.Add(this.label12);
@@ -228,25 +276,16 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(635, 150);
+            this.tabPage2.Size = new System.Drawing.Size(635, 207);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "RECEIVE FILE";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(3, 125);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(282, 20);
-            this.label10.TabIndex = 16;
-            this.label10.Text = "FIRST CONNECT TO A SERVER OR CLIENT";
-            // 
             // progressBar2
             // 
-            this.progressBar2.Location = new System.Drawing.Point(443, 90);
+            this.progressBar2.Location = new System.Drawing.Point(6, 149);
             this.progressBar2.Name = "progressBar2";
-            this.progressBar2.Size = new System.Drawing.Size(179, 29);
+            this.progressBar2.Size = new System.Drawing.Size(619, 29);
             this.progressBar2.TabIndex = 15;
             // 
             // label11
@@ -324,6 +363,8 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.tabPage3.Controls.Add(this.textBox6);
+            this.tabPage3.Controls.Add(this.label17);
             this.tabPage3.Controls.Add(this.textBox4);
             this.tabPage3.Controls.Add(this.button5);
             this.tabPage3.Controls.Add(this.button4);
@@ -334,9 +375,26 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(635, 150);
+            this.tabPage3.Size = new System.Drawing.Size(635, 207);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "CONNECTION";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(107, 68);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(125, 27);
+            this.textBox6.TabIndex = 8;
+            this.textBox6.Text = "şifre";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(7, 68);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(94, 20);
+            this.label17.TabIndex = 7;
+            this.label17.Text = "PASSWORD :";
             // 
             // textBox4
             // 
@@ -349,7 +407,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(108, 66);
+            this.button5.Location = new System.Drawing.Point(108, 101);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(125, 29);
             this.button5.TabIndex = 5;
@@ -359,7 +417,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(7, 66);
+            this.button4.Location = new System.Drawing.Point(7, 101);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(89, 29);
             this.button4.TabIndex = 4;
@@ -380,9 +438,9 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(7, 36);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(50, 20);
+            this.label7.Size = new System.Drawing.Size(44, 20);
             this.label7.TabIndex = 2;
-            this.label7.Text = "label7";
+            this.label7.Text = "PORT";
             // 
             // textBox2
             // 
@@ -397,19 +455,30 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(7, 3);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(50, 20);
+            this.label6.Size = new System.Drawing.Size(79, 20);
             this.label6.TabIndex = 0;
-            this.label6.Text = "label6";
+            this.label6.Text = "IP ADRESS";
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(254, 39);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(141, 124);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 16;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(645, 185);
+            this.ClientSize = new System.Drawing.Size(645, 240);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -421,10 +490,12 @@
             this.tabPage1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -441,7 +512,6 @@
         private OpenFileDialog openFileDialog1;
         private SaveFileDialog saveFileDialog1;
         private Button button2;
-        private ProgressBar progressBar1;
         private Label label4;
         private Label label5;
         private Label label3;
@@ -460,11 +530,18 @@
         private Button button6;
         private TextBox textBox5;
         private Label label9;
-        private Label label10;
-        private ProgressBar progressBar2;
         private Label label11;
         private Label label12;
         private Label label13;
         private Label label14;
+        private Label label15;
+        private ProgressBar progressBar1;
+        private ProgressBar progressBar2;
+        private Label label16;
+        private Label label10;
+        private PictureBox pictureBox1;
+        private TextBox textBox6;
+        private Label label17;
+        private PictureBox pictureBox2;
     }
 }
